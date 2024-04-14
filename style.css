@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+@font-face {
+    font-family: 'Nighty';
+    src: url(fonts/Nightydemo.otf) format('opentype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: 'Nighty', sans-serif;
+    font-family: "Sora", sans-serif;
+}
+body header{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: fixed;
+    margin-bottom: 20vh;
+}
+body header img{
+    width: 15%;
+}
+body main{
+    width: 100%;
+    height: 100vh;
+    padding-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .aside{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main .aside .text, 
+main .aside .buttons{
+    margin-left: 20%;
+}
+main .aside .text h1{
+    font-family: 'Nighty', sans-serif;
+    font-size: 7.5rem;
+    max-width: 90%;
+    line-height: 60%;
+    color: #111111;
+}
+main .aside .buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+}
+main .aside .buttons a:first-child{
+    background-color: #111111;
+    width: 40%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    padding: 5px;
+}
+main .aside .buttons a:first-child img{
+    width: 8%;
+}
+main .aside .buttons a:last-child{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+main .cartoon{
+    width: 45%;
+    height: 100%;
+}
